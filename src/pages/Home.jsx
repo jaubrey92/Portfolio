@@ -49,7 +49,7 @@ const Home = () => {
           className="profPic"
         />
         <h1>Hello, I'm James</h1>
-        <h3>I'm a full-stack software engineer.</h3>
+        <h3>I'm a full-stack software engineer</h3>
         <ul>
           <li>Based in Tulsa, OK</li>
           <li>Former physical therapist and sommelier</li>
