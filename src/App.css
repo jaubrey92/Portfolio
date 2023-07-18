@@ -41,3 +41,68 @@ nav > a:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-bottom: solid white 1px;
 }
+
+.portfolioSection {
+  color: black;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectSection {
+  color: black;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.portfolioLink {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.portfolioLink:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.portfolioImage {
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.about {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about > h5 {
+  color: black;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}

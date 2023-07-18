@@ -1,26 +1,74 @@
 const Portfolio = () => {
   return (
-    <div>
-      <img
-        src="https://i.ibb.co/Z6WcXGm/Slack-Photo.png"
-        alt="Prof Pic"
-        className="profPic"
-      />
-      <h1>Hello, I'm James</h1>
-      <h3>I'm a full-stack software engineer.</h3>
-      <h5>Based in Tulsa, OK</h5>
-      <h5>Former physical therapist and sommelier</h5>
-      <h5>jaaubrey92@gmail.com</h5>
-      <h5>Resume</h5>
-      <a className="contactInfo" href="https://github.com/jaubrey92">
-        GitHub |
-      </a>
-      <a
-        className="contactInfo"
-        href="https://www.linkedin.com/in/james-aubrey/"
-      >
-        | LinkedIn
-      </a>
+    <div className="portfolioSection">
+      <div className="projectSection">
+        <h1>Cork and Sip</h1>
+        <img
+          src="../../images/CorkAndSip.png"
+          alt="CorkAndSip"
+          className="portfolioImage"
+        />
+        <a className="portfolioLink" href="https://corkandsip.fly.dev/">
+          Live Demo
+        </a>
+        <a
+          className="portfolioLink"
+          href="https://github.com/AnthonnyyP/Cork-and-Sip"
+        >
+          Source Code
+        </a>
+      </div>
+      <div className="projectSection">
+        <h1>Anatomy Tutor</h1>
+        <img
+          src="../../images/AnatomyTutor.png"
+          alt="AnatomyTutor"
+          className="portfolioImage"
+        />
+        <a
+          className="portfolioLink"
+          href="https://anatomy-tutor-front-end.vercel.app/"
+        >
+          Live Demo
+        </a>
+        <a
+          className="portfolioLink"
+          href="https://github.com/jaubrey92/anatomy_study_guide"
+        >
+          Source Code
+        </a>
+      </div>
+      <div className="projectSection">
+        <h1>Snake</h1>
+        <img
+          src="../../images/Snake.png"
+          alt="Snake"
+          className="portfolioImage"
+        />
+        <a className="portfolioLink" href="https://grateful-mouth.surge.sh/">
+          Live Demo
+        </a>
+        <a className="portfolioLink" href="https://github.com/jaubrey92/Snake">
+          Source Code
+        </a>
+      </div>
+      <div className="projectSection">
+        <h1>Restaurant Ratings</h1>
+        <img
+          src="../../images/Hestia.png"
+          alt="Hestia"
+          className="portfolioImage"
+        />
+        <a className="portfolioLink" href="https://hestia-rr.herokuapp.com/">
+          Live Demo
+        </a>
+        <a
+          className="portfolioLink"
+          href="https://github.com/jaubrey92/Restaurant-Ratings"
+        >
+          Source Code
+        </a>
+      </div>
     </div>
   )
 }
