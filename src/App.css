@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Courier New', Courier, monospace
 }
 
 nav {
@@ -105,4 +105,57 @@ nav > a:hover {
   padding: 10px;
   margin: 10px;
   text-align: center;
+}
+
+.homePage {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.homePageContainer {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.profPic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+
+.resumePic {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.resumeButton {
+  margin: 5px;
+  border: 2px solid #2a9df4;
+  border-radius: 20px;
+  background-color: #2a9df4;
+  color: white;
+}
+
+.resumeButton:hover {
+  margin: 5px;
+  border: 2px solid #2a9df4;
+  border-radius: 20px;
+  background-color: white;
+  color: #2a9df4;
+}
+
+.contactInfo {
+  margin: 5px;
+  color: black;
 }
