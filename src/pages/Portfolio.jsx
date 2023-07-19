@@ -4,7 +4,7 @@ const Portfolio = () => {
       <div className="projectSection">
         <h1>Cork and Sip</h1>
         <img
-          src="../../images/CorkAndSip.png"
+          src="https://i.ibb.co/8j8Ssff/Screenshot-2023-07-18-at-2-38-05-PM.png"
           alt="CorkAndSip"
           className="portfolioImage"
         />
@@ -21,7 +21,7 @@ const Portfolio = () => {
       <div className="projectSection">
         <h1>Anatomy Tutor</h1>
         <img
-          src="../../images/AnatomyTutor.png"
+          src="https://i.ibb.co/C2zR1sY/Screenshot-2023-07-17-at-3-41-26-PM.png"
           alt="AnatomyTutor"
           className="portfolioImage"
         />
@@ -55,7 +55,7 @@ const Portfolio = () => {
       <div className="projectSection">
         <h1>Restaurant Ratings</h1>
         <img
-          src="../../images/Hestia.png"
+          src="https://i.ibb.co/Ybz9NS1/Screenshot-2023-07-18-at-2-36-42-PM.png"
           alt="Hestia"
           className="portfolioImage"
         />

@@ -67,7 +67,11 @@ const Home = () => {
         <button className="resumeButton" onClick={() => handleClick()}>
           Resume
         </button>
-        <img className="resumePic" src="../../images/Resume.png" alt="Resume" />
+        <img
+          className="resumePic"
+          src="https://i.ibb.co/qRtpDsf/Screenshot-2023-07-18-at-2-57-09-PM.png"
+          alt="Resume"
+        />
       </div>
     </div>
   )
