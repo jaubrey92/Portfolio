@@ -41,7 +41,7 @@ const Portfolio = () => {
       <div className="projectSection">
         <h1>Snake</h1>
         <img
-          src="../../images/Snake.png"
+          src="https://i.ibb.co/s6t24W4/Screenshot-2023-07-18-at-2-35-29-PM.png>"
           alt="Snake"
           className="portfolioImage"
         />
