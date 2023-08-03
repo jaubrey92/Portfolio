@@ -12,11 +12,10 @@ James Aubrey:
 
 ### Getting Started:
 
-1. [Cork & Sip Trello](https://trello.com/b/6QYE9zNE/cork-and-sip)
-2. [Cork & Sip (Deployed)]()
+1. [Deployed Portfolio Website](https://james-aubrey-portfolio.vercel.app/)
 
 ---
 
 ### Description:
 
-This is my own personal portfolio website! Click on the deployed link above to check it out.
+This is my own personal portfolio website! It contains information about me, links to live demos of some of my most recent projects, and links to the source code as well. Click on the deployed link above to check it out.
