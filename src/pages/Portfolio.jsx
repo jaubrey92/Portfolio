@@ -17,6 +17,11 @@ const Portfolio = () => {
         >
           Source Code
         </a>
+        <p>
+          Cork and Sip is a collaborative project using PostgreSQL, Django, and
+          Python where users can log in, track the contents of their own wine
+          cellar and sign up for tastings.
+        </p>
       </div>
       <div className="projectSection">
         <h1>Anatomy Tutor</h1>
@@ -37,6 +42,12 @@ const Portfolio = () => {
         >
           Source Code
         </a>
+        <p>
+          Anatomy Tutor was created with a MERN stack and allows physical
+          therapy students to create flashcards for each muscle of the body that
+          they need to learn for school. Utilizes RESTful routing and OAuth with
+          Auth0.
+        </p>
       </div>
       <div className="projectSection">
         <h1>Snake</h1>
@@ -51,6 +62,10 @@ const Portfolio = () => {
         <a className="portfolioLink" href="https://github.com/jaubrey92/Snake">
           Source Code
         </a>
+        <p>
+          My recreation of the classic game Snake. A user-friendly front-end
+          website using HTML, CSS, Vanilla JS, and DOM manipulation.
+        </p>
       </div>
       <div className="projectSection">
         <h1>Restaurant Ratings</h1>
@@ -68,6 +83,12 @@ const Portfolio = () => {
         >
           Source Code
         </a>
+        <p>
+          Hestia is a website that allows hospitality workers in Tulsa, OK to
+          review eateries around the city and to rate their working experience
+          for other potential employees to see. Utilizes RESTful routing, EJS,
+          MongoDB, NodeJS, and Express.
+        </p>
       </div>
     </div>
   )
