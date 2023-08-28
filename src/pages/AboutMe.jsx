@@ -21,6 +21,7 @@ const AboutMe = () => {
         <li>Javascript</li>
         <li>CSS</li>
         <li>HTML</li>
+        <li>C#</li>
       </ul>
       <ul>
         Interests/Hobbies:
